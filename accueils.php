@@ -1,0 +1,1 @@
+<h1>Page centrale</h1>

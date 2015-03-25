@@ -1,0 +1,40 @@
+Comment ajouter la variable pi en javascript ?
+var  pi  = 3.14
+int pi = 3.14
+float pi = 3.14
+double pi  = 3.14
+La méthode push() ajoute un élément :
+à la fin du tableau 
+au debut du tableau
+Au milieu du table
+Par-dessus la première valeur du tableau
+Var x  = 16 + "Volvo"  Affiche :
+16Volvo
+16 Volvo
+Une erreur
+16 + Volvo
+Comment afficher une boite d'alerte d'un message ?
+Alert("HelloWorld")
+AlertBox("HelloWorld")
+msg("HelloWorld")
+msgbox ("HelloWorld")
+Quel est la balise qui permet d'insérer du javascript dans du html ?
+<script> 
+<js>
+<javascript>
+<scripting>
+Quel est l'emplacement correct pour insérer javascript ?
+Les trois réponse sont correctes
+<head>
+<body>
+<html>
+Quel est la syntaxe qui permet de faire appelle à un fichier javascript appelé xxx ?
+<script src ="xxx.js">
+<script id ="xxx.js">
+<script href ="xxx.js">
+<script jsfile ="xxx.js">
+Comment ajouter des commentaires en javascript ?
+// et /*      */
+ <!- -  et   !/     / !
+ Comment() ;
+ <! - -

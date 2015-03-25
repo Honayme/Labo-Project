@@ -1,0 +1,121 @@
+body
+{
+	background-image : url("images/fond.jpg");
+	font-size: 16px;
+	font-family: Merriweather,Georgia,"Times New Roman",serif;
+	font-weight : 300;
+	color : #444444;
+}
+a:link, a:visited, a:active
+{
+	text-decoration: none;
+	color: #FF9900;
+}
+a:hover
+{
+	color: #55AAFF;
+	text-decoration: underline;
+}
+h1
+{
+	font-size: 28px;
+	font-family: 'TheSerifLight',georgia,serif;
+	font-weight: bold;
+	color: #444444;
+	text-align: center;
+}
+h2
+{
+	font-size: 25px;
+	font-family: arial;
+	font-weight: bold;
+	color: #555555;
+	text-align: center;
+}
+nav#header
+{
+	top : 0px;
+	left : 0px;
+	width : 100%;
+	height : 30px;
+	border-bottom : 1px solid #CDCDCD;
+	position: fixed;
+	z-index : 0;
+	background-image : linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+}
+nav#header ul
+{
+    left : 0;
+    padding:0;
+    margin:0 auto;
+    list-style:none;
+}
+nav#header a
+{
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    height : 100%;
+}
+nav#header ul li
+{
+	box-sizing : content-box;
+    padding : 0;
+    vertical-align: middle;
+	display : inline-block;
+	border-right : 1px solid #CACACA;
+	height : 30px;
+    width : 150px;
+}
+nav#header ul li:hover
+{
+	background-color : #729EBF;
+}
+nav#header li:hover li
+{
+    max-height: 24px;
+    border-width : 0 1px;
+    border-color : #CACACA;
+    border-style : solid;
+}
+nav#header li:hover li:last-child
+{
+    border-bottom : 1px solid #CACACA;
+}
+nav#header ul ul
+{
+    width : 150px;
+}
+nav#header li li
+{
+    display : block;
+    max-height:0;
+    overflow: hidden;
+    transition: all .5s;
+    border-radius:0;
+    background: #444;
+    box-shadow: none;
+    border:none;
+    margin:0 0 0 -1px;
+    padding : 0;
+}
+nav#header li li:last-child
+{
+    border-radius : 0 0 5px 5px;
+}
+div#content
+{
+	box-sizing : content-box;
+	margin : 100px auto 0px auto;
+	width : 750px;
+	min-height : 500px;
+	background-color : #DEDEDE;
+	border : 1px solid #CDCDCD;
+	border-radius : 5px;
+}
+ul 
+{
+	margin : 0px;
+	list-style-type : none;
+}
