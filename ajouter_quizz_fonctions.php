@@ -23,7 +23,7 @@ function retourner_ligne2($param1, $param2)
 {
     global $connectdb;
 
-    $fichier = file_get_contents($param1 . '.txt', FILE_USE_INCLUDE_PATH);
+    $fichier = file_get_contents('questions/'.$param1 . '.txt', FILE_USE_INCLUDE_PATH);
     $fichier = str_replace("\n", "²", $fichier);
     $fichier2 = explode("²", $fichier);
 
