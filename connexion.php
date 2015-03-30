@@ -1,7 +1,7 @@
 <?php 
 //variables
 $user = 'root';
-$pass = 'lumberjack';
+$pass = '';
 $dns1 = 'mysql:host=localhost;dbname=quizz';
 
 try {
