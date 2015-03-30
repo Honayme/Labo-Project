@@ -108,14 +108,139 @@ div#content
 {
 	box-sizing : content-box;
 	margin : 100px auto 0px auto;
+    padding : 20px;
 	width : 750px;
 	min-height : 500px;
 	background-color : #DEDEDE;
-	border : 1px solid #CDCDCD;
+	border : 1px solid #73B8D5;
 	border-radius : 5px;
 }
 ul 
 {
 	margin : 0px;
 	list-style-type : none;
+}
+
+
+/* Choix formulaire */
+section#choixquizz
+{
+    display : block;
+    width: 300px;
+    height: 100%;
+    margin : 0 auto;
+}
+section#choixquizz div
+{
+    margin : 40px;
+    background-size: contain;
+}
+section#choixquizz div div
+{
+    margin : 0px;
+}
+.row
+{
+    display: table-row;
+
+}
+
+.cell
+{
+    display: table-cell;
+    background-size: contain;
+
+}
+
+section div
+{
+    width: 149px;
+    height: 211px;
+    background-size: contain;
+
+}
+
+#html
+{
+    background: url("images/html.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+}
+#html2
+{
+    background: url("images/html2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.5s linear;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#html2:hover
+{
+    opacity: 1;
+}
+#css
+{
+    background: url("images/css.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#css2
+{
+    background: url("images/css2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.5s linear;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#css2:hover
+{
+    opacity: 1;
+}
+
+#cpp
+{
+    background: url("images/cpp.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#cpp2
+{
+    background: url("images/cpp2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.5s linear;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#cpp2:hover
+{
+    opacity: 1;
+}
+
+#js
+{
+    background: url("images/js.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#js2
+{
+    background: url("images/js2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.5s linear;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#js2:hover
+{
+    opacity: 1;
 }
