@@ -50,7 +50,7 @@ else
         afficher_question($i);
         $i++;
     }
-    /*
+    
     //requete questions
     $req_quizz2 = $connectdb->prepare('SELECT * FROM questions WHERE id_quizz=:param2');
     $req_quizz2->bindParam(':param2', $id_quizz, PDO::PARAM_INT);
@@ -82,6 +82,6 @@ else
         echo'</ul>';
 
     }
-    */
+    
 }
 ?>
